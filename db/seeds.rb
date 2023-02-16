@@ -40,6 +40,6 @@ reviews = Review.create([
         title: "Horrible airlines",
         description: "Be aware of hidden fees",
         score: 1,
-        airline: airlines.slice!(1)
+        airline: airlines.last
     }
 ])
